@@ -1,0 +1,232 @@
+# Compile of alu.v was successful.
+# Compile of alu_control.v was successful.
+# Compile of branch_predictor.v was successful.
+# Compile of cache.v was successful.
+# Compile of control_unit.v was successful.
+# Load canceled
+# Compile of cpu.v was successful with warnings.
+# Compile of cpu_TB.v was successful.
+# Compile of datapath.v was successful.
+# Compile of forwarding.v was successful.
+# Compile of hazard.v was successful.
+# Compile of Memory.v was successful.
+# Compile of opcodes.v was successful.
+# Compile of register_file.v was successful.
+# Compile of utils.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.cpu_TB
+# vsim -gui work.cpu_TB 
+# Start time: 02:21:24 on May 24,2021
+# Loading work.cpu_TB
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.instruction_cache
+# Loading work.data_cache
+# Loading work.BranchCheckUnit
+# Loading work.branch_predictor
+# Loading work.MUX_3
+# Loading work.MUX_2
+# Loading work.ControlUnit
+# Loading work.ALUControlUnit
+# Loading work.hazard_detect
+# Loading work.forwarding_unit
+# Loading work.PredictCheckUnit
+# Loading work.Jump_Address_Adder
+# Loading work.IFID_Reg
+# Loading work.register_file
+# Loading work.IDEX_Reg
+# Loading work.ALU
+# Loading work.EXMEM_Reg
+# Loading work.MEMWB_Reg
+# Loading work.Memory
+run -all
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 003 update_tag 003 tmp_tag xxx
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 003 update_tag 003 tmp_tag 000
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 004 update_tag 004 tmp_tag fff
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 004 update_tag 004 tmp_tag 002
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 005 update_tag 005 tmp_tag 002
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 005 update_tag 005 tmp_tag 003
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 006 update_tag 006 tmp_tag 003
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# tag 006 update_tag 006 tmp_tag 004
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# hit. 1
+# Test # 12-1 has been failed!
+# output_port = 0x0 (Ans : 0x1)
+# Clock #  213
+# The testbench is finished. Summarizing...
+# Test # 12-1 :     Wrong
+# Test # 12-2 : No Result
+# Test # 13-1 : No Result
+# Test # 13-2 : No Result
+# Test # 14-1 : No Result
+# Test # 14-2 : No Result
+# Test # 15-1 : No Result
+# Test # 15-2 : No Result
+# Test # 16-1 : No Result
+# Test # 16-2 : No Result
+# Test # 17-1 : No Result
+# Test # 17-2 : No Result
+# Test # 17-3 : No Result
+# Test # 18-1 : No Result
+# Test # 18-2 : No Result
+# Test # 18-3 : No Result
+# Test # 19-1 : No Result
+# Test # 19-2 : No Result
+# Test # 19-3 : No Result
+# Test #   20 : No Result
+# Pass : 36/56
+# ** Note: $finish    : C:/Users/phill/Desktop/verilog/lab6/220/cpu_TB.v(153)
+#    Time: 21450 ns  Iteration: 2  Instance: /cpu_TB
+# 1
+# Break in Module cpu_TB at C:/Users/phill/Desktop/verilog/lab6/220/cpu_TB.v line 153
+# Compile of alu.v was successful.
+# Compile of alu_control.v was successful.
+# Compile of branch_predictor.v was successful.
+# Compile of cache.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of cpu.v was successful with warnings.
+vsim -gui work.cpu_TB
+# End time: 02:22:50 on May 24,2021, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 5
+# vsim -gui work.cpu_TB 
+# Start time: 02:22:50 on May 24,2021
+# Loading work.cpu_TB
+# Loading work.cpu
+# Loading work.datapath
+# Loading work.instruction_cache
+# Loading work.data_cache
+# Loading work.BranchCheckUnit
+# Loading work.branch_predictor
+# Loading work.MUX_3
+# Loading work.MUX_2
+# Loading work.ControlUnit
+# Loading work.ALUControlUnit
+# Loading work.hazard_detect
+# Loading work.forwarding_unit
+# Loading work.PredictCheckUnit
+# Loading work.Jump_Address_Adder
+# Loading work.IFID_Reg
+# Loading work.register_file
+# Loading work.IDEX_Reg
+# Loading work.ALU
+# Loading work.EXMEM_Reg
+# Loading work.MEMWB_Reg
+# Loading work.Memory
+# Compile of cpu_TB.v was successful.
+# Compile of datapath.v was successful.
+# Compile of forwarding.v was successful.
+# Compile of hazard.v was successful.
+# Compile of Memory.v was successful.
+# Compile of opcodes.v was successful.
+# Compile of register_file.v was successful.
+# Compile of utils.v was successful.
+# 14 compiles, 0 failed with no errors.
+run -all
+# Test # 12-1 has been failed!
+# output_port = 0x0 (Ans : 0x1)
+# Clock #  213
+# The testbench is finished. Summarizing...
+# Test # 12-1 :     Wrong
+# Test # 12-2 : No Result
+# Test # 13-1 : No Result
+# Test # 13-2 : No Result
+# Test # 14-1 : No Result
+# Test # 14-2 : No Result
+# Test # 15-1 : No Result
+# Test # 15-2 : No Result
+# Test # 16-1 : No Result
+# Test # 16-2 : No Result
+# Test # 17-1 : No Result
+# Test # 17-2 : No Result
+# Test # 17-3 : No Result
+# Test # 18-1 : No Result
+# Test # 18-2 : No Result
+# Test # 18-3 : No Result
+# Test # 19-1 : No Result
+# Test # 19-2 : No Result
+# Test # 19-3 : No Result
+# Test #   20 : No Result
+# Pass : 36/56
+# ** Note: $finish    : C:/Users/phill/Desktop/verilog/lab6/220/cpu_TB.v(153)
+#    Time: 21450 ns  Iteration: 2  Instance: /cpu_TB
+# 1
+# Break in Module cpu_TB at C:/Users/phill/Desktop/verilog/lab6/220/cpu_TB.v line 153
