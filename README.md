@@ -5,7 +5,7 @@
 ### 1. Pipeline_CPU_Data Forwarding + 2bit Global Prediction(Saturation counter)
 첫번째 프로젝트 파일은 Data Forwarding과 Global Prediction으로 구현한 Pipeline TSC CPU 입니다.
 
--Design Diagram
+- Design Diagram
 <p align="center">
       <img src="https://user-images.githubusercontent.com/80669616/142618372-3a639914-fdc0-453a-945d-d14491141317.png" width="800"><br>Pipeline TSC CPU Design Architecture Diagram
 </p>
