@@ -12,5 +12,5 @@
 
 ### 2. Pipeline TSC CPU + 2-way associative, single level Cache
 첫번째 Pipeline CPU를 baseline CPU로 하여 2-way associative, single Cache를 완벽하게 구현하는 것을 목표로 프로젝트를 진행하였다.  
-테스트를 돌릴 경우 일부 오류가 발생하는 문제가 있었고, 완벽하게 디버깅을 하진 못하였다. 굉장히 어려운 프로젝트라고 여겨진다.
+테스트를 돌릴 경우 일부 오류가 발생하는 문제가 있었고, 완벽하게 디버깅을 하진 못하였다. 추후 디버깅할 예정이다.
 
